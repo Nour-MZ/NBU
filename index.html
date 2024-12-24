@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Northern Border University is located in Arar, Saudi Arabia. It was founded in 2007. It contains 16 colleges: 9 in Arar, 4 in Rafha, 2 in Turayf, and 1 in Al Uwayqilah. It has a variety of majors in multiple levels, including bachelor's and master's degrees.">
+    <title>NBU</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!--deutranopia-filter
+    -->
+    <svg class="hidden-svgs">
+        <defs>
+            <filter class="hidden-svg" id="deuteranopia-filter">
+                <feColorMatrix type="matrix" values="0.625 0.375 0 0 0
+                                                     0.7 0.3 0 0 0
+                                                     0 0.3 0.7 0 0
+                                                     0 0 0 1 0" />
+            </filter>
+            <filter class="hidden-svg" id="protanopia-filter">
+                <feColorMatrix type="matrix" values="0.567 0.433 0 0 0
+                                                     0.558 0.442 0 0 0
+                                                     0 0 0.242 0 0
+                                                     0 0 0 1 0" />
+            </filter>
+            <filter class="hidden-svg" id="tritanopia-filter">
+                <feColorMatrix type="matrix" values="0.95 0.05 0 0 0
+                                                     0 0.433 0.567 0 0
+                                                     0 0 0.475 0 0
+                                                     0 0 0 1 0" />
+            </filter>
+        </defs>
+    </svg>
+
+    <div class="acess-overlay">
+
+    </div>
+
+    <div class="acessibility-panel ">
+        <div class="accessibility-x">
+            <img src="assets/Close1.svg" alt="">
+        </div>
+        <div class="access-header">
+            <h2 class="acess-title"> أدات ذوي الإعاقة</h2>
+
+
+        </div>
+        <div class="access-body">
+            <div class="access-control-container">
+                <div class="text-size-control acess-controls">
+                    <div class="control-title-div">
+
+                        <label for="rangeInput" class="control-title-text">حجم الخط </label>
+                        <div class="control-title-image-container">
+                            <img src="assets/Group 120.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="access-range-container">
+                        <div class="small-a">A</div>
+                        <div class="access-range-wrapper">
+                            <input type="range" id="rangeInput" min="0" max="6" step="1" value="3">
+                            <div class="access-points">
+                                <span class="access-point" style="left: 0%;"></span>
+                                <span class="access-point" style="left: calc(16.67% )"></span>
+                                <span class="access-point" style="left: calc(33.33% )"></span>
+                                <span class="access-point" style="left: calc(48%)"></span>
+                                <span class="access-point" style="left: calc(63.67%)"></span>
+                                <span class="access-point" style="left: calc(79.0%)"></span>
+                                <span class="access-point" style="left: calc( 95.8%) ;"></span>
+                            </div>
+                        </div>
+                        <div class="large-a">A</div>
+                    </div>
+
+                </div>
+                <div class="reader-control acess-controls">
+                    <div class="reader-image-container">
+                        <img src="assets/image 14.png" alt="">
+                    </div>
+                    <div class="control-title-div reader">
+
+                        <h4 class="control-title-text">قارئ النص </h4>
+                        <div class="control-title-image-container">
+                            <img src="assets/Group 50.svg" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="color-control acess-controls">
+                    <div class="control-title-div">
+
+                        <h4 class="control-title-text">نمط الألوان </h4>
+                        <div class="control-title-image-container">
+                            <img src="assets/Group 160.svg" alt="">
+                        </div>
+
+                    </div>
+
+                    <div class="color-control-content">
+                        <div class="color-control-grid">
+
+                            <button class="color-control-image-container normal-option active">
+                                <div class="color-control-text">عادي</div>
+                                <img src="assets/Rectangle 1543.jpg" alt="">
+                                <div class="color-control-correct-icon">
+                                    <img src="assets/Group 131.png" alt="">
+                                </div>
+                            </button>
+
+                            <button class="color-control-image-container achromatopsia">
+                                <div class="color-control-text ">أكروماتوبية</div>
+                                <img src="assets/Rectangle 1544.png" alt="">
+                                <div class="color-control-correct-icon">
+                                    <img src="assets/Group 131.png" alt="">
+                                </div>
+                            </button>
+
+
+
+                            <button class="color-control-image-container protanopia">
+                                <div class="color-control-text">برتونبية</div>
+                                <img src="assets/Rectangle 1546.png" alt="">
+                                <div class="color-control-correct-icon">
+                                    <img src="assets/Group 131.png" alt="">
+                                </div>
+                            </button>
+
+                            <button class="color-control-image-container deutranopia">
+                                <div class="color-control-text">دوترنبيا</div>
+                                <img src="assets/Rectangle 1545.png" alt="">
+                                <div class="color-control-correct-icon">
+                                    <img src="assets/Group 131.png" alt="">
+                                </div>
+                            </button>
+
+                            <button class="color-control-image-container tritanopia">
+                                <div class="color-control-text">تريتانوبيا </div>
+                                <img src="assets/Rectangle 1547.png" alt="">
+                                <div class="color-control-correct-icon">
+                                    <img src="assets/Group 131.png" alt="">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar -->
+    <div class="main-container">
+        <div class="language-popup-overlay"> </div>
+
+
+        <div class="topbar econtainer">
+            <div class="topbar-login-container">
+                <div class="login-logo-container">
+                    <a href="" class="login-text">
+                        تسجيل الدخول
+                    </a>
+                    <div class="login-image">
+                        <img class="desktop-login-icon" src="assets/Group 222.png" alt="">
+                        <img class="mobile-login-icon" src="assets/login.svg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="topbar-language-container">
+                <div class="accessibility-container">
+                    <button type="button" aria-label="accessibility toggle" class="accessiblity-image">
+                        <img src="assets/Group 18.svg" alt="">
+                    </button>
+                    <button type="button" aria-label="language toggle" class="language-container">
+                        <div class="language-picker-text">اللغة العربية</div>
+                        <div class="language-picker-globe">
+                            <img class="globeimg" src="assets/Group.svg" alt="">
+                            <img class="arrowgreen" src="assets/arrowgreen.svg" alt="">
+                        </div>
+                    </button>
+                    <div class="language-popup">
+                        <h4 class="language-popup-header">
+                            اختر اللغة
+                        </h4>
+                        <div class="language-options">
+                            <div class="language-option arabic-language active">
+                                <span class="langugae-option-text">اللغة العربية</span>
+                                <div class="language-option-tick">
+                                    <img src="assets/correct.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="language-option english-language">
+                                <span class="langugae-option-text"> English</span>
+                                <div class="language-option-tick">
+                                    <img src="assets/correct.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Top-Nav-large -->
+        <!-- <div class="side-nav-overlay">
+        
+     </div>
+    
+     <div class="side-nav-container">
+            <div class="side-bar-x">
+                <img src="assets/Close1.svg" alt="">
+            </div>
+            <div class="side-nav-header">
+                <div class="side-nav-logo-1">
+                    <img src="assets/download 1.png" alt="">
+                </div>
+                <div class="side-nav-logo-2">
+                    <img src="assets/Mobile-Option.svg" alt="">
+                </div>
+            </div>
+
+            <div class="side-nav-list">
+                <div class="side-nav-list-item active">
+                    عن الجامعة 
+                </div>
+                <div class="side-nav-list-item">
+                    الكليات 
+                </div>
+                <div class="side-nav-list-item">
+                    إدارة الجامعة 
+                </div>
+                <div class="side-nav-list-item">
+                    عن الجامعة 
+                </div>
+                <div class="side-nav-list-item">
+                    التواصل
+                </div>
+            </div>
+        
+     </div>
+     <div class="side-nav-submenu-container">
+        <div class="side-nav-submenu-items-container">
+            <div class="side-nav-submenu-item">
+                كلمة رئيس الجامعة 
+            </div>
+            <div class="side-nav-submenu-item">
+                السيرة الذاتية لسعادة رئيس الجامعة
+            </div>
+            <div class="side-nav-submenu-item">
+                مكتب رئيس الجامعة 
+            </div>
+            <div class="side-nav-submenu-item">
+                الوكالات 
+            </div>
+            <div class="side-nav-submenu-item">
+                العمادات 
+            </div>
+        </div>
+     </div> -->
+
+        <!-- Top-Nav-large -->
+        <div class="navmenu-overlay"></div>
+        <div class="top-navigation-menu">
+            <div class="top-navigation-line">
+                <img src="assets/Group 366.jpg" alt="">
+            </div>
+
+            <div class="econtainer navigation-menu-header-container">
+                <div class="top-nav-x-container">
+                    <img src="assets/closes.svg" alt="">
+                </div>
+
+                <div class="navigation-menu-logo-container">
+                    <div class="nav-menu-logo-1">
+                        <img src="assets/download 1.png" alt="">
+                    </div>
+                    <div class="nav-menu-logo-2">
+                        <img src="assets/Mobile-Option.svg" alt="">
+                    </div>
+                    <div class="nav-menu-text">
+                        القائمة الرئسية
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-menu-grid-container econtainer">
+
+                <div class="nav-menu-column">
+                    <div class="nav-menu-header">الكليات</div>
+                    <ul class="nav-menu-items">
+                        <h4 class="menu-items-header">الكليات</h4>
+                        <li><a href="" class="nav-menu-item">عرعر</a></li>
+                        <li><a href="" class="nav-menu-item">رفحاء</a></li>
+                        <li><a href="" class="nav-menu-item">طريف</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-column">
+                    <div class="nav-menu-header">أكاديمية الموهوبين</div>
+                    <ul class="nav-menu-items">
+                        <h4 class="menu-items-header">أكاديمية الموهوبين</h4>
+                        <li><a href="" class="nav-menu-item">الرئيسية</a></li>
+                        <li><a href="" class="nav-menu-item">الرؤية والرسالة</a></li>
+                        <li><a href="" class="nav-menu-item">البرامج</a></li>
+                        <li><a href="" class="nav-menu-item">الترشيح الذاتي</a></li>
+                        <li><a href="" class="nav-menu-item">تواصل معنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-column">
+                    <div class="nav-menu-header">إدارة الجامعة</div>
+                    <ul class="nav-menu-items">
+                        <h4 class="menu-items-header">إدارة الجامعة</h4>
+                        <li><a href="" class="nav-menu-item">كلمة رئيس الجامعة</a></li>
+                        <li><a href="" class="nav-menu-item">السيرة الذاتية لسعادة رئيس الجامعة</a></li>
+                        <li><a href="" class="nav-menu-item">مكتب رئيس الجامعة</a></li>
+                        <li><a href="" class="nav-menu-item">الوكالات</a></li>
+                        <li><a href="" class="nav-menu-item">العمادات</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-column">
+                    <div class="nav-menu-header">من نحن</div>
+                    <ul class="nav-menu-items">
+                        <h4 class="menu-items-header">من نحن</h4>
+                        <li><a href="" class="nav-menu-item">الرؤية والرسالة والأهداف</a></li>
+                        <li><a href="" class="nav-menu-item">الخطة الاستراتيجية 2020-2025</a></li>
+                        <li><a href="" class="nav-menu-item">أدلة الجامعة</a></li>
+                        <li><a href="" class="nav-menu-item">التقارير السنوية للجامعة</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-column">
+                    <div class="nav-menu-header">التواصل</div>
+                    <ul class="nav-menu-items">
+                        <h4 class="menu-items-header">التواصل</h4>
+                        <li><a href="" class="nav-menu-item">المشاركة الإلكترونية</a></li>
+                        <li><a href="" class="nav-menu-item">خريطة الموقع</a></li>
+                        <li><a href="" class="nav-menu-item">هل تحتاج الى مساعدة؟</a></li>
+                        <li><a href="" class="nav-menu-item">اتصل بنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-column">
+                    <div class="nav-menu-header">المركز الإعلامي</div>
+                    <ul class="nav-menu-items">
+                        <h4 class="menu-items-header">المركز الإعلامي</h4>
+                        <li><a href="" class="nav-menu-item">الأخبار</a></li>
+                        <li><a href="" class="nav-menu-item">الفعاليات</a></li>
+                        <li><a href="" class="nav-menu-item">الإعلانات</a></li>
+                        <li><a href="" class="nav-menu-item">الجامعة في الإعلام</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-column">
+                    <div class="nav-menu-header">الخدمات الإلكترونية</div>
+                    <ul class="nav-menu-items">
+                        <h4 class="menu-items-header">الخدمات الإلكترونية</h4>
+                        <li><a href="" class="nav-menu-item">خدمات أعضاء الهيئة التدريسية</a></li>
+                        <li><a href="" class="nav-menu-item">خدمات الطلاب</a></li>
+                        <li><a href="" class="nav-menu-item">خدمات الموظفين</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-menu-column">
+                    <div class="nav-menu-header">عن الجامعة</div>
+                    <ul class="nav-menu-items">
+                        <h4 class="menu-items-header">عن الجامعة</h4>
+                        <li><a href="" class="nav-menu-item">الرؤية والرسالة والأهداف</a></li>
+                        <li><a href="" class="nav-menu-item">الخطة الاستراتيجية 2020-2025</a></li>
+                        <li><a href="" class="nav-menu-item">أدلة</a></li>
+                        <li><a href="" class="nav-menu-item">التقارير السنوية</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Landing -->
+        <div class="landing-container">
+            <div class="landing-pattern">
+
+            </div>
+            <!--Navbar-->
+            <nav class="navbar-container econtainer">
+                <div class="navbar-smaller-container">
+                    <div class="menu-container">
+                        <div class="hamburger-search-container">
+                            <div class="hamburger-container">
+                                <img src="assets/Menu.svg" alt="">
+                            </div>
+                            <div class="search-container">
+                                <img src="assets/Group 12.svg" alt="">
+                            </div>
+                        </div>
+                        <ul class="nav-links-container">
+                            <li class="nav-itemer"><a href="">تواصل معنا</a></li>
+                            <li class="nav-itemer"><a href="">المركز الإعلاني</a></li>
+                            <li class="nav-itemer"><a href="">الخدمات الإلكترونية</a></li>
+                            <li class="nav-itemer"><a href="">عن الجامعة</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-container">
+
+                        <div class="university-logo-container">
+                            <img src="assets/colored-logo 2.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+            <div class="econtainer hero-section-container">
+
+
+                <div class="hero-content-container">
+                    <h4 class="hero-subtitle">
+                        من الشمال إلى الوطن
+                    </h4>
+                    <h1 class="hero-main-title">
+                        تعليم مبتكر لقادة الفد
+                    </h1>
+                    <div class="hero-container-line-image">
+                        <img src="assets/Vector 234.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="alert-div-overlay"></div>
+            <div class="half-circle-alert"></div>
+            <div class="alert-div">
+                <div class="alert-div-image">
+                    <img src="assets/Close1.svg" class="alert-close" alt="">
+                    <img src="assets/b.svg" class="alert-dots" alt="">
+                </div>
+            </div>
+
+            <div class="alert-div-content">
+                <a href="" class="academic-calender alert-div-item">
+                    <div class="alert-div-text first">التقويم الأكاديمي </div>
+                    <div class="alert-div-icon-container">
+                        <img src="assets/calendar.svg" alt="">
+                    </div>
+                </a>
+
+                <a href="" class="academic-calender alert-div-item middle-alert">
+                    <div class="alert-div-text "> حدد موقعنا على الخريطة </div>
+                    <div class="alert-div-icon-container">
+                        <img src="assets/map.svg" alt="">
+                    </div>
+                </a>
+
+                <a href="" class="academic-calender alert-div-item">
+                    <div class="alert-div-text last">البيانات المفتوحة </div>
+                    <div class="alert-div-icon-container">
+                        <img src="assets/ic-statistics-circle-chart.svg" alt="">
+                    </div>
+                </a>
+            </div>
+
+            <div class="landing-social-media-container">
+                <a href="" aria-label="check our facebook page" role="link"
+                    class="social-media-icon landing-social-media-icon facebook"><img
+                        src="assets/facebook-svgrepo-com.svg" alt=""></a>
+
+
+                <a href="" aria-label="check our twitter page" role="link"
+                    class="social-media-icon landing-social-media-icon twitter"><img
+                        src="assets/x-social-media-black-icon.svg" alt=""></a>
+                <a href="" aria-label="check our instagram page" role="link"
+                    class="social-media-icon landing-social-media-icon instagram"><img src="assets/instagram.svg"
+                        alt=""></a>
+
+                <a href="" aria-label="check our snapchat page" role="link"
+                    class="social-media-icon landing-social-media-icon snapchat"><img src="assets/snpachat.svg"
+                        alt=""></a>
+                <a href="" aria-label="check our linkedin page" role="link"
+                    class="social-media-icon  landing-social-media-icon linkedin"><img
+                        src="assets/7935ec95c421cee6d86eb22ecd125aef.svg" alt=""></a>
+
+            </div>
+
+            <div class="landing-container-text">
+                إن جوهر مهمتنا هو الالتزام بالابتكار. فنحن نعمل
+                باستمرار على التطور والتكيف, باستخدام أحدث
+                التقنيات والحلول الإبداعية لتشكيل هويتنا
+                الفريدة. وتقديم وجهات نظر
+            </div>
+
+            <div class="landing-container-bottom-right-block"></div>
+
+        </div>
+
+        <!--overall-->
+        <div class="overall-vision-section econtainer">
+            <div class="overall-lines-container">
+                <div class="overall-line"></div>
+                <div class="overall-line"></div>
+                <div class="overall-line"></div>
+                <div class="overall-line"></div>
+                <div class="overall-line"></div>
+                <div class="overall-line"></div>
+                <div class="overall-line"></div>
+                <div class="overall-line"></div>
+                <div class="overall-line"></div>
+            </div>
+            <div class="overall-vision-pattern">
+                <img src="assets/Section 2/G2 1.png" alt="">
+            </div>
+            <h4 class="vision-subtitle subtitle-design-class">
+                اكتشف رؤيتنا
+            </h4>
+            <h2 class="vision-main-title maintitle-design-class">
+                لمحة شاملة ومميزة عن
+                <span class="maintitle-highlight-design-class"> الجامعة ورسالتها
+            </h2>
+
+            <div class="vision-cards-container">
+                <div class="vision-card">
+                    
+                    <div class="vision-card-background-image">
+                        <img src="assets/Section 2/DSC06292 (1).JPG" alt="">
+                    </div>
+                    <div class="vision-card-background-shadow"></div>
+
+                    <div class="vision-rotated-title">
+                        
+                        رؤية وتخطيط
+                    </div>
+                    <h3 class="vision-card-title">
+                        رؤية وتخطيط
+                    </h3>
+                    <div class="vision-card-paragraph">
+                        يعود تاريخ تأسيس جامعة الحدود الشمالية
+                        إلى عام 1402هـ حيث تأسست حينها الكلية
+                        المتوسطة للبنات، وكانت بمثابة النواة لهذا
+                        الصرح الحالي.
+                    </div>
+                    <div class="vision-card-links-container">
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container">
+                                <img src="assets/Section 2/l1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container star">
+                                <img src="assets/Section 2/l2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container book">
+                                <img src="assets/Section 2/l3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="vision-card">
+                    <div class="vision-card-background-image">
+                        <img src="assets/Section 2/DSC02149 (1).jpeg" alt="">
+                    </div>
+                    <div class="vision-card-background-shadow"></div>
+                    <div class="vision-rotated-title">
+                        
+                        رؤية وتخطيط
+                    </div>
+                    <h3 class="vision-card-title">
+                        رؤية وتخطيط
+                    </h3>
+                    <div class="vision-card-paragraph">
+                        يعود تاريخ تأسيس جامعة الحدود الشمالية
+                        إلى عام 1402هـ حيث تأسست حينها الكلية
+                        المتوسطة للبنات، وكانت بمثابة النواة لهذا
+                        الصرح الحالي.
+                    </div>
+                    <div class="vision-card-links-container">
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container">
+                                <img src="assets/Section 2/l1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container star">
+                                <img src="assets/Section 2/l2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container book">
+                                <img src="assets/Section 2/l3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="vision-card active">
+                    <div class="vision-card-background-image">
+                        <img src="assets/Section 2/Rectangle 3925.jpg" alt="">
+                    </div>
+                    <div class="vision-card-background-shadow"></div>
+                    <div class="vision-rotated-title">
+                        
+                        رؤية وتخطيط
+                    </div>
+                    <h3 class="vision-card-title">
+                        رؤية وتخطيط
+                    </h3>
+                    <div class="vision-card-paragraph">
+                        يعود تاريخ تأسيس جامعة الحدود الشمالية
+                        إلى عام 1402هـ حيث تأسست حينها الكلية
+                        المتوسطة للبنات، وكانت بمثابة النواة لهذا
+                        الصرح الحالي.
+                    </div>
+                    <div class="vision-card-links-container">
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container">
+                                <img src="assets/Section 2/l1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container star">
+                                <img src="assets/Section 2/l2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="" class="vision-card-link-item">
+                            <div class="vision-card-link-item-content">
+                                <div class="vision-card-link-item-arrow">
+                                    <img src="assets/Section 2/arrow.svg" alt="">
+                                </div>
+                                <div class="vision-card-link-item-text">جامعة التعدين</div>
+                            </div>
+                            <div class="vision-link-item-image-container book">
+                                <img src="assets/Section 2/l3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- statistics container-->
+        <div class="econtainer open-statistics">
+            <div class="video-background">
+                <video autoplay loop muted>
+                    <source src="assets/7020029_Wave_Dot_1920x1080.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <h2 class="statistics-title">البيانات <span class="stat-title-highlight">المفتوحة</span> </h2>
+
+            <div class="statistic-number-container" id="statistics">
+                <div class="stat-number-container">
+                    <div class="stat-number">
+                        <div class="stat-value-container">
+                            <div class="stat-value" data-target="500">0</div>
+                            <div class="stat-plus-icon-container">
+                                <img src="assets/yellow plus.svg" alt="">
+                            </div>
+                        </div>
+                        <h4 class="stat-title">
+                            موظفي الجامعة
+                        </h4>
+                    </div>
+                    <div class="statistics-icon">
+                        <img src="assets/employee-settings-svgrepo-com 1.svg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="stat-number-container">
+                    <div class="stat-number">
+                        <div class="stat-value-container">
+                            <div class="stat-value" data-target="1068">0</div>
+                            <div class="stat-plus-icon-container">
+                                <img src="assets/yellow plus.svg" alt="">
+                            </div>
+                        </div>
+                        <h4 class="stat-title">
+                            أعضاء هيئة تدريسية
+                        </h4>
+                    </div>
+                    <div class="statistics-icon">
+                        <img src="assets/Icon.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="stat-number-container">
+                    <div class="stat-number">
+                        <div class="stat-value-container">
+                            <div class="stat-value" data-target="1896">0</div>
+                            <div class="stat-plus-icon-container">
+                                <img src="assets/yellow plus.svg" alt="">
+                            </div>
+                        </div>
+                        <h4 class="stat-title">
+                            الطلاب المسجلين
+                        </h4>
+                    </div>
+                    <div class="statistics-icon">
+                        <img src="assets/grad-hat.svg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="stat-number-container">
+                    <div class="stat-number">
+                        <div class="stat-value-container">
+                            <div class="stat-value" data-target="13">0</div>
+                            <div class="stat-plus-icon-container">
+                                <img src="assets/yellow plus.svg" alt="">
+                            </div>
+                        </div>
+                        <h4 class="stat-title">
+                            الكليات المتاحة
+                        </h4>
+                    </div>
+                    <div class="statistics-icon">
+                        <img src="assets/Icon4.svg" alt="">
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="pattern-n statistics-pattern-first">
+
+                <img src="assets/saudi university wallpaper.png" alt="">
+            </div>
+            <div class="pattern-n statistics-pattern-second">
+                <img src="assets/shape-circle-dots 1.png" alt="">
+            </div>
+            <div class="pattern-n statistics-pattern-third">
+                <img src="assets/shape-circle-dots 1.png" alt="">
+            </div>
+        </div>
+
+        <div class="journey-container econtainer">
+            <div class="journey-header">
+                <p class="journey-exerpt">
+                    إن جوهر مهمتنا هو الالتزام بالابتكار. فنحن نعمل باستمرار على التطور
+                    والتكيف, باستخدام أحدث التقنيات والحلول الإبداعية لتشكيل هويتنا
+                    الفريدة. وتقديم وجهات نظر جديدة تعيد تعريف التميز في كل ما نقوم به
+                </p>
+                <div class="journey-title-container">
+                    <h2 class="journey-small-title">
+                        الدراسة في الجامعة
+                    </h2>
+                    <h3 class="journey-title">
+                        رحلة التعلم <span class="highlight-journey">والتطور الأكاديمي</span>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="journey-grid-container">
+                <div class="journey-grid">
+
+                    <a href="" aria-label="read journey-link-s" role="link"
+                        class="journey-grid-item journey-grid-item-large">
+                        <img src="assets/generate image for Learning environment and its development for a saudi university.png"
+                            alt="">
+                        <div href="" class="journey-item-link">
+                            <div class="journey-link-large-image">
+                                تعرف أكثر
+                            </div>
+                        </div>
+                        <h4 class="journey-item-title journey-item-title-large">
+                            البيئة التعلمية وتطويرها
+                        </h4>
+                    </a>
+
+                    <a role="link" href="" aria-label="read journey-e-image" class="journey-grid-item">
+                        <img src="assets/Rectangle 1512.png" alt="">
+                        <div class="journey-item-link">
+                            <div class="journey-link-image">
+
+                            </div>
+                        </div>
+                        <h4 class="journey-item-title">
+                            برنامج ماجستر
+                        </h4>
+
+                    </a>
+                    <a href="" role="link" aria-label="read journey-s-image" class="journey-grid-item">
+                        <img src="assets/generate image of a saudi student helping the poor.png" alt="">
+                        <div class="journey-item-link">
+                            <div class="journey-link-image">
+
+                            </div>
+                        </div>
+                        <h4 class="journey-item-title">
+                            البرامج النوعية
+                        </h4>
+                    </a>
+
+
+                    <a href="" role="link" aria-label="read journey-link-er" class="journey-grid-item">
+                        <img src="assets/Rectangle 1512-1.png" alt="">
+                        <div class="journey-item-link">
+                            <div class="journey-link-image">
+
+                            </div>
+                        </div>
+                        <h4 class="journey-item-title">
+                            الدبلومات وبرامج البكالوريوس
+                        </h4>
+                    </a>
+                    <a role="link" href="" aria-label="read journey-e-image" class="journey-grid-item">
+                        <img src="assets/Rectangle 1513.png" alt="">
+                        <div class="journey-item-link">
+                            <div class="journey-link-image">
+
+                            </div>
+                        </div>
+                        <h4 class="journey-item-title">
+                            البحث والابتكار
+                        </h4>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="latest-news econtainer">
+            <h2 class="lnews-header">
+                أخر الأخبار
+            </h2>
+            <h3 class="lnews-title">
+                ابقى على <span class="highlight-lnews">إطلاع </span>
+            </h3>
+            <div class="lnews-selections">
+                <div class="lnews-line"></div>
+                <button class="lnews-option  lnews-events-option ">
+                    <div class="test-lnews">
+                        الفعاليات
+                    </div>
+                </button>
+                <button class="lnews-option lnews-announcements-option">
+
+                    <div class="test-lnews">
+                        الإعلانات
+                    </div>
+                </button>
+
+                <button class="lnews-option lnews-news-option ">
+                    <div class="test-lnews">
+                        الأخبار
+                    </div>
+                </button>
+
+
+            </div>
+            <div class="lnews-cards-container lnews-events-content">
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Image3.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        أمير الشمالية يرعى حفل اليوم الوطني بجامعة الحدود الشمالية
+                    </p>
+
+                    <div class="lnews-card-date">
+                        شوال 1445 ه 8
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Rectangle 1512-1.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        التعليم هو أساس بناء مستقبل مشرق للأجيال
+                    </p>
+
+                    <div class="lnews-card-date">
+                        شوال 1445 ه 10
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Rectangle 1547.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        أمير الشمالية يرعى حفل اليوم الوطني بجامعة الحدود الشمالية
+                    </p>
+
+                    <div class="lnews-card-date">
+                        شوال 1445 ه 8
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="lnews-cards-container lnews-announcements-content">
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Rectangle 1545.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        أمير الشمالية يرعى حفل اليوم الوطني بجامعة الحدود الشمالية
+                    </p>
+
+                    <div class="lnews-card-date">
+                        شوال 1445 ه 8
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Image1.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        أمير الشمالية يرعى حفل اليوم الوطني بجامعة الحدود الشمالية
+                    </p>
+
+                    <div class="lnews-card-date">
+                        شوال 1445 ه 8
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Image.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        أمير الشمالية يرعى حفل اليوم الوطني بجامعة الحدود الشمالية
+                    </p>
+
+                    <div class="lnews-card-date">
+                        <span>8 شوال 1445 هـ</span>
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+            </div>
+
+            <div class="lnews-cards-container lnews-news-content active">
+
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Image.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        رئيس جامعة الحدود الشمالية
+                        يرعى ملتقى الصحة النفسية
+                    </p>
+
+                    <div class="lnews-card-date">
+                        <span>25 ذو القعدة 1445 هـ</span>
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Image1.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        بمناسبة اليوم العالمي للمعلم
+                        اقامة برنامجًا للروضة الأولى
+                    </p>
+
+                    <div class="lnews-card-date">
+                        <span>10 ذو القعدة 1445 هـ</span>
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+
+
+                <a href="" class="lnews-card">
+                    <div class="lnews-card-image-container">
+                        <img src="assets/Image3.png" alt="">
+                    </div>
+
+                    <p class="lnews-text">
+                        أمير الشمالية يرعى حفل اليوم
+                        الوطني بجامعة الحدود الشمالية
+                    </p>
+
+                    <div class="lnews-card-date">
+                        <span>8 شوال 1445 هـ</span>
+                        <div class="card-date-circle"></div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="most-used-container econtainer">
+            <h2 class="m-used-header">
+                الخدمات الأكثر إستخداماً
+            </h2>
+            <h3 class="m-used-title">
+                الخدمات <span class="highlight-m-used">والتسهيلات الرقمية</span>
+            </h3>
+            <div class="m-used-options-container">
+                <button class="m-used-option m-used-option-employees "> الموظفين </button>
+                <buttton class="m-used-option m-used-option-members">أعضاء هيئة التدريس</buttton>
+                <button class="m-used-option m-used-option-students active">الطلاب </button>
+
+
+            </div>
+
+            <div class="m-used-options-grid-container m-used-content-employees">
+
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 135.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 12.svg" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 151.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">خدمة العملاء المتميزة</h4>
+                    <p class="m-used-card-description">دعم فني متواصل يضمن رضا العملاء وتحسينم</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="m-used-options-grid-container m-used-content-members">
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 131.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">تطبيقات تقنية متقدمة</h4>
+                    <p class="m-used-card-description">أدوات ذكية تسهم في تسهيل الحيان</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">مشاريع تنموية فعالة</h4>
+                    <p class="m-used-card-description">مبادرات تهدف إلى تحسين جودة المع</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">استراتيجية وطنية شاملة</h4>
+                    <p class="m-used-card-description"> خطة عملز التنمية المستدامة في البلاد</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+            </div>
+
+            <div class="m-used-options-grid-container m-used-content-students active">
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle self-service portal-button-services">
+                            <img src="assets/Group 150.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">بوابة الخدمات الذاتية </h4>
+                    <p class="m-used-card-description">منصة متكاملة للخدمات الذاتية</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle portal-button-password">
+                            <img src="assets/password.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">اعادة كلمة المرور</h4>
+                    <p class="m-used-card-description">استعادة كلمة المرور بسهولة</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle portal-button-transport">
+                            <img src="assets/bus.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">نظام حركة النقل</h4>
+                    <p class="m-used-card-description">تنظيم شامل لحركة النقل </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle portal-button-benz">
+                            <img src="assets/Group 353.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">نظام بانر</h4>
+                    <p class="m-used-card-description">نظام تعليمي شامل ومتطور </p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle portal-button-study">
+                            <img src="assets/Group 268.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">المنح الدراسية</h4>
+                    <p class="m-used-card-description">فرص مميزة للمنح الدراسية</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle portal-button-academic">
+                            <img src="assets/Group 153.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">التقويم الاكاديمي</h4>
+                    <p class="m-used-card-description">جدول شامل للتقويم الأكاديمي</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle portal-button-phone">
+                            <img src="assets/Group 269.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">خدمة الهاتف الشبكي</h4>
+                    <p class="m-used-card-description">اتصال موثوق عبر الهاتف الشبكي</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+
+                <div class="m-used-card">
+
+                    <div class="m-used-image-container">
+                        <div class="m-used-smaller-circle portal-button-library">
+                            <img src="assets/Group 151.png" alt="">
+                        </div>
+
+                    </div>
+                    <h4 class="m-used-card-title">المكتبة الرقمية</h4>
+                    <p class="m-used-card-description">مصدر شامل للمراجع الرقمية</p>
+
+                    <a href="" class="m-used-card-button">
+                        <div class="m-used-button-image">
+                            <img src="assets/Vector4.png" alt="">
+                        </div>
+                        <div class="m-used-button-text">إبدأ الخدمة</div>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer-container econtainer">
+            <div class="footer-grid-container">
+                <div class="footer-mobile-logo-container">
+                    <a class="footer-university-logo-container">
+                        <img src="assets/colored-logo 2.png" alt="">
+                    </a>
+
+                    <a class="footer-mo3tamad-logo">
+                        <img src="assets/Rectangle.png" alt="">
+                    </a>
+
+                </div>
+                <div class="footer-logos-container footer-item-container">
+                    <div class="footer-logo-container">
+                        <img src="assets/colored-logo 2.png" alt="">
+                    </div>
+                    <div class="footer-social-media-container">
+                        <a href="" aria-label="check our twitter page" role="link"
+                            class="social-media-icon twitter"><img src="assets/x.svg" alt=""></a>
+                        <a href="" aria-label="check our linkedin page" role="link"
+                            class="social-media-icon linkedin"><img src="assets/linkedin.svg" alt=""></a>
+                        <a href="" aria-label="check our snapchat page" role="link"
+                            class="social-media-icon snapchat"><img src="assets/snapchat.svg" alt=""></a>
+                        <a href="" aria-label="check our instagram page" role="link"
+                            class="social-media-icon instagram"><img src="assets/instagram.svg" alt=""></a>
+                        <a href="" aria-label="check our facebook page" role="link"
+                            class="social-media-icon facebook"><img src="assets/facebook.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="footer-services-container footer-item-container">
+                    <div class="footer-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">الخدمات
+                        والكليات
+                    </div>
+                    <div id="collapseOne" class="footer-overflow-container accordion-collapse collapse ">
+                        <ul class="footer-links-container">
+                            <li><a href="" class="footer-link">كلية عرعر</a></li>
+                            <li><a href="" class="footer-link">كلية رفحة</a></li>
+                            <li><a href="" class="footer-link">كلية الطريف</a></li>
+                            <li><a href="" class="footer-link">الخدمات الإلكترونية</a></li>
+                            <li><a href="" class="footer-link">معلومات مفتوحة</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-useful-sources-container footer-item-container">
+
+                    <div class="footer-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapsetwo">مصادر
+                        مفيدة
+                    </div>
+                    <div id="collapsetwo" class="footer-overflow-container accordion-collapse collapse ">
+
+                        <ul class="footer-links-container">
+                            <li><a href="" class="footer-link">شروط الاستخدام</a></li>
+                            <li><a href="" class="footer-link">حقوق الملكية</a></li>
+                            <li><a href="" class="footer-link">خدمة نزاهة</a></li>
+                            <li><a href="" class="footer-link">وظائف</a></li>
+                            <li><a href="" class="footer-link">تواصل معنا</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="footer-external-links-container footer-item-container">
+                    <div class="footer-header collapsed " data-bs-toggle="collapse" data-bs-target="#collapsethree">
+                        روابط خارجية
+                    </div>
+                    <div id="collapsethree" class="footer-overflow-container accordion-collapse collapse ">
+                        <ul class="footer-links-container">
+                            <li><a href="" class="footer-link">وزارة التربية والتعليم</a></li>
+                            <li><a href="" class="footer-link">وكالة الأنباء السعودية</a></li>
+                            <li><a href="" class="footer-link">الدراسة في السعودية</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-apps-container footer-item-container">
+                    <div class="footer-header collapsed " data-bs-toggle="collapse" data-bs-target="#collapsefour">
+                        تطبيقات الجوال </div>
+                    <div id="collapsefour" class="footer-overflow-container accordion-collapse collapse ">
+
+                        <a href="" aria-label="download from play store" role="link" class="footer-store">
+                            <img src="assets/Download_on_the_App_Store_2017_inverted 1.png" alt="">
+                        </a>
+                        <a href="" aria-label="download from app store" role="link" class="footer-store">
+                            <img src="assets/Download_on_the_App_Store_2017_inverted 2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <div class="footer-lower-container econtainer">
+            <div class="copyrights-text">
+                <span>
+                    جميع الحقوق محفوظة © 2024 لجامعة الحدود الشمالية </span>
+            </div>
+            <div class="saudi-vision-container">
+                <a href="" aria-label="suadi future vision" role="link" class="vision-image-1">
+                    <img src="assets/image 19.png" alt="">
+                </a>
+                <a href="" aria-label="vision of saudi" role="link" class="vision-image-2">
+                    <img src="assets/2030_white 2.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- / <img src="assets/vecteezy_simple-black-background-animation-with-gently-moving-white_21224134 1.png" alt=""> -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
