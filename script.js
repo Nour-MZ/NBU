@@ -6,13 +6,59 @@ $(document).ready(function () {
 
     // document.body.classList.add('active');
     landingtimeline.to(".topbar", { y: "0" }, 0);
-    landingtimeline.to(".navbar-container", { y: "0" }, "<-0.4");
-    landingtimeline.to(".alert-div", { x: "0" }, "<0.8");
-    landingtimeline.to(".hero-link-container", { y: "0" }, "<0.5");
-    // landingtimeline.fromTo('.hero-text-line', {scaleX: 0}, {scaleX: 1, transformOrigin: '100% 50%'}); 
-
+    landingtimeline.to(".navbar-container", { y: "0" }, "<0.35");
+    landingtimeline.to(".landing-container-bottom-right-block", { x:0, y:0, opacity: 1, stagger: 0.3 }, "<1");
+    landingtimeline.to(".landing-container-text", { x:0, y:0, opacity: 1, stagger: 0.3 }, "<0");
+    landingtimeline.to(".hero-content-container", { x:0, y:0, opacity: 1 }, "<0.4");
     
+    landingtimeline.to(".alert-div", { x: "0" }, "<0.8");
+    landingtimeline.to(".landing-social-media-icon", { x:0, y:0, opacity: 1, stagger: 0.3 }, "<0.3");
+   
 
+    ScrollTrigger.batch(".overall-vision-pattern", {
+        once: true,
+        start: "top 15%",
+        onEnter: (element, triggers) => {
+            gsap.to(element, {y:0, opacity: 1, delay: 1.8, stagger: 0.15 });
+
+        },
+    });
+
+    ScrollTrigger.batch(".overall-line", {
+        once: true,
+        start: "top 95%",
+        onEnter: (element, triggers) => {
+            gsap.to(element, {height: "100%", delay:0.3,  opacity: 1, stagger: 0.15 });
+
+        },
+    });
+
+    ScrollTrigger.batch(".subtitle-design-class", {
+        once: true,
+        start: "top 95%",
+        onEnter: (element, triggers) => {
+            gsap.to(element, { y: 0, x:0, opacity: 1, delay: 0.4,stagger: 0.2 });
+
+        },
+    });
+
+    ScrollTrigger.batch(".maintitle-design-class", {
+        once: true,
+        start: "top 95%",
+        onEnter: (element, triggers) => {
+            gsap.to(element, { y: 0, x:0, opacity: 1, delay: 0.5, stagger: 0.2 });
+
+        },
+    });
+
+    ScrollTrigger.batch(".vision-card", {
+        once: true,
+        start: "top 95%",
+        onEnter: (element, triggers) => {
+            gsap.to(element, { y: 0, x:0, opacity: 1, delay: 0.5, stagger: 0.35 });
+
+        },
+    });
 
     ScrollTrigger.batch(".vision-content-section", {
         once: true,
